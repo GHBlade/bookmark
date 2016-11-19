@@ -24,6 +24,6 @@
 > 3. 提交到本地仓库： `git commit -m "修改备注"` <br>
 > 4. 推送更新到远程：`git push origin master` 
 > 
-> 提示：<br>
-> **更新远程到本地**： `git pulll origin master`<br>
-> **添加远端repo**： `$ git remote add origin 远程仓库地址`
+> **提示**：<br>
+> 更新远程到本地： `git pulll origin master`<br>
+> 添加远端repo：   `$ git remote add origin 远程仓库地址`
