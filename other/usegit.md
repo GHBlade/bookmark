@@ -25,7 +25,6 @@
 > 	`$ git add 文件名` 添加指定文件<br>
 > 3. 提交到本地仓库： `$ git commit -m "修改备注"` <br>
 > 4. 推送更新到远程： `$ git push origin master`<br> 
-> <br>
 > **提示**：<br>
-> 更新远程到本地： `$ git pulll origin master`<br>
+> 更新远程到本地： `$ git pull origin master`<br>
 > 添加远端repo：   `$ git remote add origin 远程仓库地址`
