@@ -24,7 +24,7 @@
 >	`$ git add .` 添加所有修改文件<br>
 > 	`$ git add 文件名` 添加指定文件<br>
 > 3. 提交到本地仓库： `git commit -m "修改备注"` <br>
-> 4. 推送更新到远程： `git push origin master` 
+> 4. 推送更新到远程： `git push origin master`<br> 
 > <br>
 > **提示**：<br>
 > 更新远程到本地： `$ git pulll origin master`<br>
