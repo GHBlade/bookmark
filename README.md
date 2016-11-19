@@ -13,6 +13,6 @@
 
 ---
 
-`[Git使用](./other/usegit.md)`
+[`Git使用`](./other/usegit.md)
 
 
