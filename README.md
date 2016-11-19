@@ -12,7 +12,7 @@
 * [**Other**](./other/other.md): 个人喜好书签<br>
 
 
-######传送门
+####传送门:<br>
 [FCC](https://www.freecodecamp.cn)、[Git使用](./other/usegit.md)、[常用工具](./other/utils.md)
 
 
