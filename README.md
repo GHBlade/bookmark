@@ -2,7 +2,7 @@
  
 
 ###### `Android` `IOS` `React` `Other`
-------------------
+---
 
 ####分类：<br>
 
@@ -11,6 +11,8 @@
 * [**React**](./react/react.md): 关于React学习过程<br>
 * [**Other**](./other/other.md): 个人喜好书签<br>
 
+---
 
+`[Git使用](./other/usegit.md)`
 
 
