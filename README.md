@@ -13,6 +13,6 @@
 
 
 ######传送门
-<a href="https://www.freecodecamp.cn" target="_blank">FCC</a>、[Git使用](./other/usegit.md)、[常用工具](./other/utils.md)
+[FCC](https://www.freecodecamp.cn)、[Git使用](./other/usegit.md)、[常用工具](./other/utils.md)
 
 
