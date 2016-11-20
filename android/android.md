@@ -11,7 +11,7 @@
 ####架构
 * [MVC、MVP、MVVMM比较与区别](http://www.cnblogs.com/JustRun1983/p/3727560.html)
 * [MVP示例(Google官方)](https://github.com/googlesamples/android-architecture)
-
+* [架构合集](https://github.com/CameloeAnthony/AndroidArchitectureCollection)
 
 
 ####RX系列 
@@ -45,3 +45,4 @@
 
 ####零碎示例
 * [RecyclerView联系人](https://github.com/jiang111/IndexRecyclerView)
+* [富文本编辑器](https://github.com/mr5/icarus-android)
