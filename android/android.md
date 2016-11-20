@@ -1,5 +1,10 @@
 # Android
 
+#### 开源项目汇总：[传送门](https://github.com/Trinea/android-open-project)
+
+
+####架构
+* [MVC、MVP、MVVMM比较与区别](http://www.cnblogs.com/JustRun1983/p/3727560.html)
 
 ####RX系列 
 * [详细教程](https://github.com/lzyzsd/Awesome-RxJava)
