@@ -4,10 +4,13 @@
 
 #### 开源项目汇总：[传送门](https://github.com/Trinea/android-open-project)
 
-#### 质量编码准备: [传送门](https://github.com/jiang111/awesome-android-tips)
+#### 质量编码准备：[传送门](https://github.com/jiang111/awesome-android-tips)
 
 ####架构
 * [MVC、MVP、MVVMM比较与区别](http://www.cnblogs.com/JustRun1983/p/3727560.html)
+* [MVP示例(Google官方)](https://github.com/googlesamples/android-architecture)
+
+
 
 ####RX系列 
 * [详细教程](https://github.com/lzyzsd/Awesome-RxJava)
@@ -23,3 +26,13 @@
 * [常用图片特效](http://www.eoeandroid.com/forum.php?mod=viewthread&tid=170526&extra=page%3D1&page=1)
 * [开源滤镜](https://github.com/daizhenjun/ImageFilterForAndroid)
 * [实时滤镜](http://www.eoeandroid.com/thread-171528-1-1.html)
+
+
+
+
+
+
+####收藏
+* [AS常用插件](https://github.com/jiang111/awesome-androidstudio-plugins)
+* [从零开始开发一款APP](http://www.jianshu.com/p/a58d15ef5c8b)
+* [代码案例搜索](http://www.codota.com/)
