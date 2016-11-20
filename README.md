@@ -1,7 +1,7 @@
 # Bookmark
  
 
-##### `Android` `IOS` `React` `Other`
+##### `Android` `IOS` `Web` `React` `Other`
 
 
 ####分类：
@@ -22,5 +22,6 @@
 * [FCC](https://www.freecodecamp.cn)
 * [Git使用](./other/usegit.md)
 * [常用工具](./other/utils.md)
+* [安全](./other/security.md)
 
 
