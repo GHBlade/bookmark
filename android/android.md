@@ -28,9 +28,18 @@
 * [实时滤镜](http://www.eoeandroid.com/thread-171528-1-1.html)
  
 
-
 ####收藏
 * [安卓Drawable适配](http://blog.csdn.net/wrg_20100512/article/details/51295317)
 * [AS常用插件](https://github.com/jiang111/awesome-androidstudio-plugins)
 * [从零开始开发一款APP](http://www.jianshu.com/p/a58d15ef5c8b)
 * [代码案例搜索](http://www.codota.com/)
+* [SVG转VectorDrawable](http://inloop.github.io/svg2android/)
+
+####代码托管
+* [Github](https://github.com)
+* [Coding](https://coding.net/)
+* [码云](http://git.oschina.net/)
+* [阿里云](http://code.taobao.org/)
+
+####零碎示例
+* [RecyclerView联系人](https://github.com/jiang111/IndexRecyclerView)
