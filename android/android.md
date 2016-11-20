@@ -1,5 +1,7 @@
 # Android
 
+#### Android工作：[传送门](https://github.com/android-cn/android-jobs)
+
 #### 开源项目汇总：[传送门](https://github.com/Trinea/android-open-project)
 
 
