@@ -1,9 +1,10 @@
 # Android
 
-#### Android工作：[传送门](https://github.com/android-cn/android-jobs)
+#### 安卓工作汇总：[传送门](https://github.com/android-cn/android-jobs)
 
 #### 开源项目汇总：[传送门](https://github.com/Trinea/android-open-project)
 
+#### 质量编码准备: [传送门](https://github.com/jiang111/awesome-android-tips)
 
 ####架构
 * [MVC、MVP、MVVMM比较与区别](http://www.cnblogs.com/JustRun1983/p/3727560.html)
