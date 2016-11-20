@@ -4,6 +4,8 @@
 
 #### 开源项目汇总：[传送门](https://github.com/Trinea/android-open-project)
 
+#### 工具素材准备: [传送门](https://github.com/inferjay/AndroidDevTools/)
+
 #### 质量编码准备：[传送门](https://github.com/jiang111/awesome-android-tips)
 
 ####架构
