@@ -16,7 +16,11 @@
 
 * [Yalantis](https://github.com/Yalantis)
 
-####传送门:<br>
-[FCC](https://www.freecodecamp.cn)、[Git使用](./other/usegit.md)、[常用工具](./other/utils.md)
+####传送门：
+
+* [LeetCode](https://leetcode.com/)
+* [FCC](https://www.freecodecamp.cn)
+* [Git使用](./other/usegit.md)
+* [常用工具](./other/utils.md)
 
 
