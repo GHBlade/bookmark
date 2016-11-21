@@ -11,6 +11,7 @@
 ####架构
 * [MVC、MVP、MVVMM比较与区别](http://www.cnblogs.com/JustRun1983/p/3727560.html)
 * [MVP示例(Google官方)](https://github.com/googlesamples/android-architecture)
+* [高效使用MVP](http://blog.csdn.net/dantestones/article/details/51445208)
 * [架构合集](https://github.com/CameloeAnthony/AndroidArchitectureCollection)
 
 
@@ -31,7 +32,8 @@
 * [实时滤镜](http://www.eoeandroid.com/thread-171528-1-1.html)
 
 ####动画处理
-*[RecyclerView动画](http://www.07net01.com/2015/12/1024142.html)
+* [RecyclerView动画](http://www.07net01.com/2015/12/1024142.html)
+* [RecyclerView布局动画](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0915/3462.html)
 
 
 ####收藏
@@ -48,6 +50,11 @@
 * [阿里云](http://code.taobao.org/)
 
 ####零碎示例
+* [欢迎页合集](http://www.jianshu.com/p/b08286b9e3f6)
+* [RecyclerView集合](https://github.com/CameloeAnthony/Learning-RecyclerView)
 * [ExpandableLayout](https://github.com/cachapa/ExpandableLayout)
 * [RecyclerView联系人](https://github.com/jiang111/IndexRecyclerView)
 * [富文本编辑器](https://github.com/mr5/icarus-android)
+* [HorizontalWheelView](https://github.com/shchurov/HorizontalWheelView)
+* [工作日常问题记录与解决](http://blog.csdn.net/biezhihua/article/details/49506781)
+* [多状态自定义View](https://github.com/qyxxjd/MultipleStatusView)
