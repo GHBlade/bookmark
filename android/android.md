@@ -30,6 +30,9 @@
 * [开源滤镜](https://github.com/daizhenjun/ImageFilterForAndroid)
 * [实时滤镜](http://www.eoeandroid.com/thread-171528-1-1.html)
 
+####动画处理
+*[RecyclerView动画](http://www.07net01.com/2015/12/1024142.html)
+
 
 ####收藏
 * [安卓Drawable适配](http://blog.csdn.net/wrg_20100512/article/details/51295317)
