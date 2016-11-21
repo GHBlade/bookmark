@@ -12,3 +12,8 @@
 
 ##JS
 * [jQuery](http://kb.cnblogs.com/zt/jquery/jQuery_getting_started.html)
+
+
+##收藏
+* [Web前端性能优化](https://www.w3ctech.com/topic/1767)
+* [浏览器的工作原理](https://www.w3ctech.com/topic/48)
