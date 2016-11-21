@@ -16,10 +16,14 @@
 
 * [Yalantis](https://github.com/Yalantis)
 
-####传送门：
+####自学：
 
 * [LeetCode](https://leetcode.com/)
 * [FCC](https://www.freecodecamp.cn)
+* [Google31套在线课程](http://chinagdg.org/2015/12/google-%E6%8E%A8%E5%87%BA%E7%9A%84-31-%E5%A5%97%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/)
+
+####其余：
+
 * [Git使用](./other/usegit.md)
 * [常用工具](./other/utils.md)
 * [网络安全](./other/security.md)
