@@ -48,10 +48,12 @@
 ####收藏
 * [安卓Drawable适配](http://blog.csdn.net/wrg_20100512/article/details/51295317)
 * [AS常用插件](https://github.com/jiang111/awesome-androidstudio-plugins)
+* [优秀的插件](https://github.com/dreamlivemeng/androidstudio-plugins)
 * [从零开始开发一款APP](http://www.jianshu.com/p/a58d15ef5c8b)
 * [代码案例搜索](http://www.codota.com/)
 * [SVG转VectorDrawable](http://inloop.github.io/svg2android/)
 * [SVG2Android](https://github.com/inloop/svg2android)
+* [接口隔离ISP](http://blog.csdn.net/dd864140130/article/details/51429926)
 
 ####代码托管
 * [Github](https://github.com)
