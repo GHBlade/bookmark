@@ -24,6 +24,7 @@
 * [RxJava 与 Retrofit 结合的最佳实践](http://gank.io/post/56e80c2c677659311bed9841)
 * [其余详情](https://www.zhihu.com/question/35511144)
 * [(MVP+RxJava+Retrofit)解耦+Mockito单元测试](http://www.jianshu.com/p/cdfeb6c3d099?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=weixin)
+* [RXJava](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html)
 
 ####图片处理
 * [七牛API](https://github.com/lingochamp/QiniuImageLoader)
@@ -36,17 +37,16 @@
 ####动画处理
 * [RecyclerView动画](http://www.07net01.com/2015/12/1024142.html)
 * [RecyclerView布局动画](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0915/3462.html)
-
+* [手动实现布局过渡效果](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0629/3119.html)
 
 ####加载动画
 * [LoadingView](https://github.com/ldoublem/LoadingView)
-* [Loading加载库](https://github.com/ybq/Android-SpinKit)
-
-
-
+* [Loading加载库](https://github.com/ybq/Android-SpinKit) 
 
 ####收藏
 * [安卓Drawable适配](http://blog.csdn.net/wrg_20100512/article/details/51295317)
+* [50个安卓开发者应该熟悉的Android Studio技巧和资源](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/1116/6776.html)
+* [Google指导教程](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0608/3019.html)
 * [AS常用插件](https://github.com/jiang111/awesome-androidstudio-plugins)
 * [优秀的插件](https://github.com/dreamlivemeng/androidstudio-plugins)
 * [从零开始开发一款APP](http://www.jianshu.com/p/a58d15ef5c8b)
@@ -54,6 +54,8 @@
 * [SVG转VectorDrawable](http://inloop.github.io/svg2android/)
 * [SVG2Android](https://github.com/inloop/svg2android)
 * [接口隔离ISP](http://blog.csdn.net/dd864140130/article/details/51429926)
+* [性能优化](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0418/2745.html)
+* [关于DataBinding](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0811/3290.html)
 
 ####代码托管
 * [Github](https://github.com)

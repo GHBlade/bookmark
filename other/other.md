@@ -2,7 +2,8 @@
 
 
 ####技术类
-[极客学院](http://www.jikexueyuan.com/)、[慕课网](http://www.imooc.com/)、[麦子学院](http://www.maiziedu.com/)、[i春秋学院](http://www.ichunqiu.com/)、[51CTO](http://www.51cto.com/)、[干货集中营](http://gank.io)
+[极客学院](http://www.jikexueyuan.com/)、[慕课网](http://www.imooc.com/)、[麦子学院](http://www.maiziedu.com/)、[i春秋学院](http://www.ichunqiu.com/)、[51CTO](http://www.51cto.com/)、[干货集中营](http://gank.io)<br>
+[泡在网上的日子]()
 
 
 
