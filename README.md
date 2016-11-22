@@ -46,3 +46,4 @@
 
 * [滑动隐藏](https://github.com/githubwing/ByeBurger)
 * [十年开发错误总结](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/1111/6765.html)
+* [android适配器模式设计与实现-BaseAdapter解析](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1029/485.html)
