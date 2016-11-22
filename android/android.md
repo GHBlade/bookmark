@@ -46,6 +46,7 @@
 ####收藏
 * [安卓Drawable适配](http://blog.csdn.net/wrg_20100512/article/details/51295317)
 * [50个安卓开发者应该熟悉的Android Studio技巧和资源](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/1116/6776.html)
+* [资源文件命名规则](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/1104/6745.html)
 * [Google指导教程](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0608/3019.html)
 * [AS常用插件](https://github.com/jiang111/awesome-androidstudio-plugins)
 * [优秀的插件](https://github.com/dreamlivemeng/androidstudio-plugins)
