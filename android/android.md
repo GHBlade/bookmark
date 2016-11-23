@@ -77,3 +77,4 @@
 * [material-stepper](https://github.com/fcannizzaro/material-stepper)
 * [StatusBarCompat](https://github.com/niorgai/StatusBarCompat)
 * [Drag-square](https://github.com/xmuSistone/android-drag-square)
+* [表情键盘emoji](https://github.com/w446108264/XhsEmoticonsKeyboard)
