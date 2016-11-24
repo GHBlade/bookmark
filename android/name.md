@@ -17,7 +17,8 @@
 * item:recyler或者gridview中使用的布局
 * layout:include标签中用来重用的布局
 
-<br>**示例**<br>
+**示例**
+
 * activity_main: MainActivity的布局
 * fragment_articledetail:  ArticleDetailFragment的布局
 * view_menu: 被自定义view：MenuView所inflate的布局
@@ -25,3 +26,21 @@
 * layout_actionbar_backbutton:带有返回按钮的actionbar的布局
 
 ####String命名规则
+![String的命名规范](../img/android_name_4.png)
+当整个app都要使用这个string时：
+![全局string](../img/android_name_5.png)
+
+**示例**
+* articledetail_title: ArticleDetailFragment的标题
+* all_done: 通用的 "done" 字符
+
+####Drawable命名规则
+![Drawable的命名规范](../img/android_name_6.png)
+当整个app都要使用这个drawable时：
+![全局drawable](../img/android_name_7.png)
+可以选择性的添加\<SIZE\>元素
+
+**示例**
+* articledetail_placeholder: placeholder in ArticleDetailFragment
+* all_infoicon_24dp: 24dp version of generic info icon
+
