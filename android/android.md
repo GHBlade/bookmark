@@ -8,6 +8,22 @@
 
 #### 质量编码准备：[传送门](https://github.com/jiang111/awesome-android-tips)
 
+####国内大神
+* 鸿洋_：[Github](https://github.com/hongyangAndroid/)、[博客](http://blog.csdn.net/lmj623565791)
+* liaohuqiu：[Github](https://github.com/liaohuqiu)、[博客](https://www.liaohuqiu.net/)
+* Trinea：[Github](https://github.com/Trinea)、[博客](http://www.trinea.cn/)
+* 胡凯me：[Github](https://github.com/kesenhoo)、[博客](http://hukai.me/)
+* 代码家：[Github](https://github.com/daimajia)、[博客](http://daimajia.com/)
+* 扔物线：[Github](https://github.com/rengwuxian)、[博客](http://www.rengwuxian.com/)
+* guolin：[博客](http://blog.csdn.net/guolin_blog)
+* singwhatiwanna：[Github](https://github.com/singwhatiwanna/)、[博客](http://blog.csdn.net/singwhatiwanna)
+* stormzhang：[Github](https://github.com/stormzhang)、[博客](http://stormzhang.com/)
+* MrSimp1e：[博客](http://blog.csdn.net/bboyfeiyu)
+* eclipse_xu：[博客](http://blog.csdn.net/eclipsexys/)
+* 技术小黑屋：[博客](http://droidyue.com/)
+* 某学姐：[博客](https://mouxuejie.com/)
+* drakeet：[博客](https://drakeet.me/)  
+
 ####架构
 * [MVC、MVP、MVVMM比较与区别](http://www.cnblogs.com/JustRun1983/p/3727560.html)
 * [MVP示例(Google官方)](https://github.com/googlesamples/android-architecture)
@@ -25,6 +41,7 @@
 * [其余详情](https://www.zhihu.com/question/35511144)
 * [(MVP+RxJava+Retrofit)解耦+Mockito单元测试](http://www.jianshu.com/p/cdfeb6c3d099?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=weixin)
 * [RXJava](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0430/2815.html)
+* [RxCache源码分析](http://www.jianshu.com/p/5d73909c7068)
 
 ####图片处理
 * [七牛API](https://github.com/lingochamp/QiniuImageLoader)
