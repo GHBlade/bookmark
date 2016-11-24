@@ -9,7 +9,7 @@
 ![命名示例](../img/android_name_2.png)
 
 ####Layout命名规则
-![Layout命名规范](../img/android_name_3.png)
+![Layout命名规范](../img/android_name_3.png)<br>
 其中<WHAT>可以是以下名称之一:<br>
 * activity:activity的布局
 * fragment:fragment的布局
