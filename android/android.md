@@ -10,6 +10,8 @@
 
 #### [Android开发技术前线:定期翻译国外Android优质的技术、开源库、软件架构设计、测试等文章的开源项目](https://github.com/hehonghui/android-tech-frontier)
 
+#### [国内优秀Android学习资源](https://github.com/hehonghui/android-tech-frontier/tree/master/the-bad-guys)
+
 ####国内大神
 * 鸿洋_：[Github](https://github.com/hongyangAndroid/)、[博客](http://blog.csdn.net/lmj623565791)
 * liaohuqiu：[Github](https://github.com/liaohuqiu)、[博客](https://www.liaohuqiu.net/)

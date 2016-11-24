@@ -15,7 +15,10 @@
 
 ####大神：
 
-* [Yalantis](https://github.com/Yalantis)
+* [Yalantis项目组](https://github.com/Yalantis)
+* [square项目组](https://github.com/square)
+* [facebook项目组](https://github.com/facebook)
+* [Jake Wharton](https://github.com/jakewharton)
 
 ####自学：
 * [LeetCode](https://leetcode.com/)
