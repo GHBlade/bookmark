@@ -8,6 +8,8 @@
 
 #### 质量编码准备：[传送门](https://github.com/jiang111/awesome-android-tips)
 
+#### [Android开发技术前线:定期翻译国外Android优质的技术、开源库、软件架构设计、测试等文章的开源项目](https://github.com/hehonghui/android-tech-frontier)
+
 ####国内大神
 * 鸿洋_：[Github](https://github.com/hongyangAndroid/)、[博客](http://blog.csdn.net/lmj623565791)
 * liaohuqiu：[Github](https://github.com/liaohuqiu)、[博客](https://www.liaohuqiu.net/)
@@ -26,6 +28,7 @@
 
 ####架构
 * [MVC、MVP、MVVMM比较与区别](http://www.cnblogs.com/JustRun1983/p/3727560.html)
+* [MVP介绍](https://github.com/hehonghui/android-tech-frontier/blob/master/issue-12%2FAndroid%E4%B8%8AMVP%E7%9A%84%E4%BB%8B%E7%BB%8D.md#使用mvp)
 * [MVP示例(Google官方)](https://github.com/googlesamples/android-architecture)
 * [高效使用MVP](http://blog.csdn.net/dantestones/article/details/51445208)
 * [架构合集](https://github.com/CameloeAnthony/AndroidArchitectureCollection)
