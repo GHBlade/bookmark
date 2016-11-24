@@ -14,3 +14,6 @@
 * getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);设置全屏方法一定要在setContentView之后
 * viewpager 的 setCurrentItem 一定要在 setAdapter 方法之后调用才会有效果
 * TextUtils 是一个非常好用的工具类，把 List 转成字符串，逗号分隔，逗号分隔的 String 字符串，切割成 List ，分别可以用 TextUtils 的 join 和 split 方法。如果要对 List 去重，则可以用 Collection 的 frequency 方法
+
+
+* [命名规范](./name.md)
