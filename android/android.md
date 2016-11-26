@@ -78,6 +78,7 @@
 * [SVG2Android](https://github.com/inloop/svg2android)
 * [接口隔离ISP](http://blog.csdn.net/dd864140130/article/details/51429926)
 * [性能优化](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0418/2745.html)
+* [Android渲染机制](http://blog.csdn.net/ccj659/article/details/53219288)
 * [关于DataBinding](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0811/3290.html)
 
 ####代码托管
@@ -100,6 +101,7 @@
 * [StatusBarCompat](https://github.com/niorgai/StatusBarCompat)
 * [Drag-square](https://github.com/xmuSistone/android-drag-square)
 * [表情键盘emoji](https://github.com/w446108264/XhsEmoticonsKeyboard)
+* [无锯齿圆形图片](https://github.com/zuoweitan/CircleImageView)
 
 
 
