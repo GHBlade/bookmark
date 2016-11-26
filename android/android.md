@@ -71,6 +71,7 @@
 * [资源文件命名规则](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/1104/6745.html)
 * [Google指导教程](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0608/3019.html)
 * [AS常用插件](https://github.com/jiang111/awesome-androidstudio-plugins)
+* [开发调试神器 JRebel](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650662380&idx=1&sn=c0f99d69249cadc66fc74a4b1dfe5d4b&chksm=87d138b3b0a6b1a5b9fce0a055740516c28171681acf3e300a9d53a7270e261fa1a1c8ede84e&mpshare=1&scene=23&srcid=1121QpwhBDOpX9y8hmc1uVJt#rd)
 * [优秀的插件](https://github.com/dreamlivemeng/androidstudio-plugins)
 * [从零开始开发一款APP](http://www.jianshu.com/p/a58d15ef5c8b)
 * [代码案例搜索](http://www.codota.com/)
