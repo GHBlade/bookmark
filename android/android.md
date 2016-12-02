@@ -81,6 +81,8 @@
 * [性能优化](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0418/2745.html)
 * [Android渲染机制](http://blog.csdn.net/ccj659/article/details/53219288)
 * [关于DataBinding](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0811/3290.html)
+* [沉浸式适配总结](http://imxie.cc/2016/11/08/jike_Immersive_project/)
+
 
 ####代码托管
 * [Github](https://github.com)
