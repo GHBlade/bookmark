@@ -2,7 +2,7 @@
 
 
 ##### `Android` `C++` `IOS` `Web` `React` `Other`
-##### [**面试集锦**](https://github.com/MaximAbramchuck/awesome-interview-questions)
+##### [**最全面试问题集锦**](https://github.com/MaximAbramchuck/awesome-interview-questions)
 
 ####分类：
 
