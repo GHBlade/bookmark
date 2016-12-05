@@ -1,7 +1,14 @@
 # Python
 
-####正则表达式
-![正则表达式规则](../img/match.png)
+####网页内容解析
+* 正则表达式：<br>
+  ![正则表达式规则](../img/match.png)
+
+* XPATH<br>
+  ![XPATH](../img/XPATH.png)
+
+* Beautifulsoup  
+      
 ####学习文档
 * [**官方文档**](https://docs.python.org/3/)
 * [**相关推荐一**](https://www.zhihu.com/question/20899988)
