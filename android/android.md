@@ -60,6 +60,7 @@
 * [RecyclerView动画](http://www.07net01.com/2015/12/1024142.html)
 * [RecyclerView布局动画](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0915/3462.html)
 * [手动实现布局过渡效果](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0629/3119.html)
+* [矢量图动画在线辅助工具](https://github.com/romannurik/AndroidIconAnimator)
 
 ####加载动画
 * [LoadingView](https://github.com/ldoublem/LoadingView)
