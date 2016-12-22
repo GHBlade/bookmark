@@ -13,7 +13,7 @@
 > function(i){ return i + 1; } //ES5
 > (i) => i + 1 //ES6
 
-```
+```javascript
 function(x, y) {
     x++;
     y--;
@@ -22,7 +22,7 @@ function(x, y) {
 (x, y) => {x++; y--; return x+y}
 ```
 ####template string
-```
+```javascript
 $("#result").append(`
   There are <b>${basket.count}</b>items
    in your basket, <em>${basket.onSale}</em>
@@ -33,20 +33,22 @@ $("#result").append(`
 
 ####destructuring
 > ES6允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为解构（Destructuring）
-```
+```javascript
 let cat = 'ken'
 let dog = 'lili'
 let zoo = {cat, dog}
 console.log(zoo)  //Object {cat: "ken", dog: "lili"}
 ```
-```
+```javascript
 let dog = {type: 'animal', many: 2}
 let { type, many} = dog
 console.log(type, many)   //animal 2
 ```
+
 ####default, rest
 > default很简单，意思就是默认值。 如调用animal()方法时忘了传参数，传统的做法就是加上这一句type = type || 'cat' 来指定默认值
-```
+
+```javascript
 function animal(type){
     type = type || 'cat'  
     console.log(type)
@@ -54,14 +56,14 @@ function animal(type){
 animal()
 ```
 > ES6我们直接这么写
-```
+```javascript
 function animal(type = 'cat'){
     console.log(type)
 }
 animal()
 ```
 > rest语法
-```
+```javascript
 function animals(...types){
     console.log(types)
 }
