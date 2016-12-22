@@ -95,8 +95,184 @@
 > 使用双引号("") 而不是单引号('')
 
 
-
 ###JavaScript规范
+
+* 全局命名空间污染与 IIFE(Immediately-Invoked Function Expression)
+> IIFE 用以创建独立隔绝的定义域,还可确保你的代码不会轻易被其它全局命名空间里的代码所修改
+```javascript
+(function(log, w, undefined){
+  'use strict';
+
+  var x = 10,
+      y = 100;
+
+  // Will output 'true true'
+  log((w.x === undefined) + ' ' + (w.y === undefined));
+
+}(window.console.log, window));
+```
+
+* IIFE（立即执行的函数表达式）
+> 无论何时，想要创建一个新的封闭的定义域，那就用 IIFE。它不仅避免了干扰，也使得内存在执行完后立即释放
+```javascript
+(function($, w, d){
+  'use strict';// 严格模式
+
+  $(function() {
+    w.alert(d.querySelectorAll('div').length);
+  });
+}(jQuery, window, document));
+```
+
+* 严格模式
+> ECMAScript 5 严格模式可在整个脚本或独个方法内被激活。它对应不同的 javascript 语境会做更加严格的错误检查
+
+* 变量声明
+> 总是使用 var 来声明变量。如不指定 var，变量将被隐式地声明为全局变量，这将对变量难以控制
+
+* 定义域和定义域提升
+> 在 JavaScript 中变量和方法定义会自动提升到执行之前
+
+* 提升声明
+> 只用一个 var 关键字声明，多个变量用逗号隔开<br>
+> 把赋值尽量写在变量申明中
+
+* 使用带类型判断的比较判断
+> 使用 === 精确的比较操作符，避免在判断的过程中，由 JavaScript 的强制类型转换所造成的困扰<br>
+> 如果你使用 === 操作符，那比较的双方必须是同一类型为前提的条件下才会有效
+
+* 明智地使用真假判断
+> if(a == true) 是不同于 if(a) 的。后者的判断比较特殊，我们称其为真假判断<br>
+> 这种判断会通过特殊的操作将其转换为 true 或 false，下列表达式统统返回 false：false, 0, undefined, null, NaN, ''（空字符串）
+
+* 变量赋值时的逻辑操作
+> 逻辑操作符 || 和 && 也可被用来返回布尔值。如果操作对象为非布尔对象，那每个表达式将会被自左向右地做真假判断
+> 不推荐：
+```javascript
+if(!x) {
+  if(!y) {
+    x = 1;
+  } else {
+    x = y;
+  }
+}
+```
+> 推荐：这一小技巧经常用来给方法设定默认的参数
+```javascript
+x = x || y || 1;
+```
+
+* 澄清：分号与函数
+> 分号需要用在表达式的结尾，而并非函数声明的结尾
+```javascript
+var foo = function() {
+  return true;
+};  // semicolon here.
+
+function foo() {
+  return true;
+}  // no semicolon here.
+```
+
+* 语句块内的函数声明
+> 切勿在语句块内声明函数，在 ECMAScript 5 的严格模式下，这是不合法的,但在语句块内可将函数申明转化为函数表达式赋值给变量
+
+* 异常
+```javascript
+if(name === undefined) {
+  throw {
+    name: 'System Error',
+    message: 'A name should always be specified!'
+  }
+}
+```
+
+* 标准特性
+> 为了最大限度地保证扩展性与兼容性，总是首选标准的特性，而不是非标准的特性<br>
+> （例如：首选 string.charAt(3) 而不是 string[3]；首选 DOM 的操作方法来获得元素引用，而不是某一应用特定的快捷方法）
+
+* 简易的原型继承
+```javascript
+(function(log){
+  'use strict';
+
+  // Constructor function
+  function Apple(name) {
+    this.name = name;
+  }
+  // Defining a method of apple
+  Apple.prototype.eat = function() {
+    log('Eating ' + this.name);
+  };
+
+  // Constructor function
+  function GrannySmithApple() {
+    // Invoking parent constructor
+    Apple.prototype.constructor.call(this, 'Granny Smith');
+  }
+  // Set parent prototype while creating a copy with Object.create
+  GrannySmithApple.prototype = Object.create(Apple.prototype);
+  // Set constructor to the sub type, otherwise points to Apple
+  GrannySmithApple.prototype.constructor = GrannySmithApple;
+
+  // Calling a super method
+  GrannySmithApple.prototype.eat = function() {
+    // Be sure to apply it onto our current object with call(this)
+    Apple.prototype.eat.call(this);
+
+    log('Poor Grany Smith');
+  };
+
+  // Instantiation
+  var apple = new Apple('Test Apple');
+  var grannyApple = new GrannySmithApple();
+
+  log(apple.name); // Test Apple
+  log(grannyApple.name); // Granny Smith
+
+  // Instance checks
+  log(apple instanceof Apple); // true
+  log(apple instanceof GrannySmithApple); // false
+
+  log(grannyApple instanceof Apple); // true
+  log(grannyApple instanceof GrannySmithApple); // true
+
+  // Calling method that calls super method
+  grannyApple.eat(); // Eating Granny Smith\nPoor Grany Smith
+
+}(window.console.log));
+```
+
+* 使用闭包
+> 闭包的创建也许是 JS 最有用也是最易被忽略的能力了.[关于闭包](http://jibbering.com/faq/faq_notes/closures.html)
+```javascript
+(function(log, w){
+  'use strict';
+
+  // numbers and i is defined in the current function closure
+  var numbers = [1, 2, 3],
+      i;
+
+  numbers.forEach(function(number, index) {
+    w.setTimeout(function() {
+      w.alert('Index ' + index + ' with number ' + number);
+    }, 0);
+  });
+
+}(window.console.log, window));
+```
+
+* eval 函数（魔鬼）
+> eval() 不但混淆语境还很危险，总会有比这更好、更清晰、更安全的另一种方案来写你的代码，因此尽量不要使用 evil 函数
+
+* this关键字
+> 只在对象构造器、方法和在设定的闭包中使用 this 关键字
+
+* 数组和对象的属性迭代
+> 
+
+
+
 
 
 ###CSS和Sass(SCSS)规范
