@@ -2,6 +2,7 @@
 
 
 [近两年前端知识体系](https://github.com/ouvens/frontend-system-map)
+[CDN公共库](http://libs.useso.com/)
 
 ####框架
 * [Bootstrap](http://wrongwaycn.github.io/bootstrap/docs/index.html)
