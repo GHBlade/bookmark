@@ -5,6 +5,7 @@
 * JSON: [格式化](http://www.atool.org/jsonformat.php)
 * 转换：[文件转换](http://cn.diywz.com/)
 * 图片：[TinyPng](https://tinypng.com/)、[智图](http://zhitu.isux.us/)
+* JavaScript检查：[JSLint](http://www.jslint.com/),[JSHint](http://jshint.com/)
 
 
 #####生活类：
