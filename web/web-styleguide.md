@@ -356,7 +356,147 @@ var o2 = {
 > 一般在语法和语义上真正需要时才谨慎地使用圆括号。不要用在一元操作符上，例如 delete, typeof 和  void，或在关键字之后，例如 return, throw, case, new 等
 
 * 三元条件判断（if 的快捷方法）
->
+> 用三元操作符分配或返回语句。在比较简单的情况下使用，避免在复杂的情况下使用
 
- 
+
 ###CSS和Sass(SCSS)规范
+* 合理的避免使用ID
+> 一般情况下ID不应该被应用于样式<br>
+> ID的样式不能被复用并且每个页面中你只能使用一次ID<br>
+> 另一个反对使用ID的观点是含有ID选择器权重很高<br>
+> 一个只包含一个ID选择器权重高于包含1000个class(类)名的选择器
+
+* CSS选择器中避免标签名
+> 从分离的角度考虑,在表现层中不应该分配html标记/语义
+
+* 缩写属性
+> CSS提供了各种缩写属性（如 font 字体）应该尽可能使用，即使在只设置一个值的情况下<br>
+> 使用缩写属性对于代码效率和可读性是有很有用的
+
+* 0 和 单位
+> 省略“0”值后面的单位。不要在0值后面使用单位，除非有值
+
+* 十六进制表示法
+> 在可能的情况下，使用3个字符的十六进制表示法。<br>
+> 颜色值允许这样表示,3个字符的十六进制表示法更简短。<br>
+> 始终使用小写的十六进制数字
+
+* ID 和 Class（类） 名的分隔符
+> 使用连字符（中划线）分隔ID和Class（类）名中的单词<br>
+> 预设属性选择器能识别连字符（中划线）作为单词[attribute|=value]的分隔符，所以最好的坚持使用连字符作为分隔符
+
+* 声明顺序
+> 以下是一个选择器内书写CSS属性顺序的大致轮廓，为了保证更好的可读性和可扫描重要：
+```
+结构性属性：
+  display
+  position, left, top, right etc.
+  overflow, float, clear etc.
+  margin, padding
+表现性属性：
+  background, border etc.
+  font, text
+```
+
+* 声明结束
+> 为了保证一致性和可扩展性，每个声明应该用分号结束，每个声明换行
+
+* 属性名结束
+> 属性名的冒号后使用一个空格。出于一致性的原因，<br>
+> 属性和值（但属性和冒号之间没有空格）的之间始终使用一个空格
+
+* 选择器和声明分离
+> 每个选择器和属性声明总是使用新的一行
+
+* 规则分隔
+> 规则之间始终有一个空行（双换行符）分隔
+```css
+html {
+  background: #fff;
+}
+
+body {
+  margin: auto;
+  width: 50%;
+}
+```
+
+* CSS引号
+> 属性选择器或属性值用双引号（””），而不是单引号（”）括起来。<br>
+> URI值（url()）不要使用引号
+
+* 嵌套中引入 空行 (SCSS)
+> 嵌套选择器和CSS属性之间空一行
+```css
+.content {
+  display: block;
+
+  > .news-article {
+    background-color: #eee;
+
+    > .title {
+      font-size: 1.2em;
+    }
+
+    > .article-footnote {
+      font-size: 0.8em;
+    }
+  }
+}
+```
+
+* 上下文媒体查询(SCSS)
+> 在Sass中，当你嵌套你的选择器时也可以使用上下文媒体查询
+```Sass
+.content-page {
+  font-size: 1.2rem;
+
+  @media screen and (min-width: 641px) {
+    font-size: 1rem;
+  }
+
+  > .main {
+    background-color: whitesmoke;
+
+    > .latest-news {
+      padding: 1rem;
+
+      > .news-article {
+        padding: 1rem;
+
+        > .title {
+          font-size: 2rem;
+
+          @media screen and (min-width: 641px) {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+
+    > .content {
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+  }
+
+  > .page-footer {
+    margin-top: 2rem;
+    font-size: 1rem;
+
+    @media screen and (min-width: 641px) {
+      font-size: 0.8rem;
+    }
+  }
+}
+```
+
+* 嵌套顺序和父级选择器(SCSS)
+```
+  当前选择器的样式属性
+  父级选择器的伪类选择器 (:first-letter, :hover, :active etc)
+  伪类元素 (:before and :after)
+  父级选择器的声明样式 (.selected, .active, .enlarged etc.)
+  用Sass的上下文媒体查询
+  子选择器作为最后的部分
+```
