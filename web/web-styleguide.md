@@ -269,10 +269,94 @@ if(name === undefined) {
 > 只在对象构造器、方法和在设定的闭包中使用 this 关键字
 
 * 数组和对象的属性迭代
-> 
+> 用 ECMA5 的迭代方法来迭代数组。使用 Array.forEach 或者如果你要在特殊场合下中断迭代，那就用  Array.every
+```javascript
+(function(log){
+  'use strict';
 
+  // Iterate over an array and break at a certain condition
+  [1, 2, 3, 4, 5].every(function(element, index, arr) {
+    log(element + ' at index ' + index + ' in array ' + arr);
 
+    if(index !== 5) {
+      return true;
+    }
+  });
 
+  // Defining a simple javascript object
+  var obj = {
+    a: 'A',
+    b: 'B',
+    'c-d-e': 'CDE'
+  };
 
+  // Iterating over the object keys
+  Object.keys(obj).forEach(function(element, index, arr) {
+    log('Key ' + element + ' has value ' + obj[element]);
+  });
 
+}(window.console.log));
+
+```
+
+* 不要使用switch
+> switch 在所有的编程语言中都是个非常错误的难以控制的语句，建议用 if else 来替换它
+
+* 数组和对象字面量
+> 用数组和对象字面量来代替数组和对象构造器。数组构造器很容易让人在它的参数上犯错<br>
+> 不推荐：
+```javascript
+// Length is 3.
+var a1 = new Array(x1, x2, x3);
+
+// Length is 2.
+var a2 = new Array(x1, x2);
+
+// If x1 is a number and it is a natural number the length will be x1.
+// If x1 is a number but not a natural number this will throw an exception.
+// Otherwise the array will have one element with x1 as its value.
+var a3 = new Array(x1);
+
+// Length is 0.
+var a4 = new Array();
+```
+> 推荐：
+```javascript
+var a = [x1, x2, x3];
+var a2 = [x1, x2];
+var a3 = [x1];
+var a4 = [];
+```
+> 对象构造器不会有类似的问题，但是为了可读性和统一性，我们应该使用对象字面量
+> 不推荐：
+```javascript
+var o = new Object();
+var o2 = new Object();
+o2.a = 0;
+o2.b = 1;
+o2.c = 2;
+o2['strange key'] = 3;
+```
+> 推荐：
+```javascript
+var o = {};
+
+var o2 = {
+  a: 0,
+  b: 1,
+  c: 2,
+  'strange key': 3
+};
+```
+
+* 修改内建对象的原型链
+> 修改内建的诸如 Object.prototype 和 Array.prototype 是被严厉禁止的。修改其它的内建对象比如  Function.prototype，虽危害没那么大，但始终还是会导致在开发过程中难以 debug 的问题，应当也要避免
+
+* 圆括号
+> 一般在语法和语义上真正需要时才谨慎地使用圆括号。不要用在一元操作符上，例如 delete, typeof 和  void，或在关键字之后，例如 return, throw, case, new 等
+
+* 三元条件判断（if 的快捷方法）
+>
+
+ 
 ###CSS和Sass(SCSS)规范
