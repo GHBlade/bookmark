@@ -340,7 +340,6 @@ o2['strange key'] = 3;
 > 推荐：
 ```javascript
 var o = {};
-
 var o2 = {
   a: 0,
   b: 1,
